@@ -2,8 +2,10 @@
   "name": "spice-me-app",
   "version": "1.0.0",
   "babel": {
-    "presets": [ "@babel/preset-react" ],
-    "plugins": [  ]
+    "presets": [
+      "@babel/preset-react"
+    ],
+    "plugins": []
   },
   "description": "An app for nice neighbours sharing ingredients",
   "main": "index.js",
@@ -35,5 +37,9 @@
     "sass-loader": "^10.1.1",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2"
   }
 }
