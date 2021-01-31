@@ -55,6 +55,10 @@
         {% endif %}
         {% endwith %}
         {% block content %}{% endblock %}
+        {% block app_content %}
+        <div id="react-root"></div>
+        <script src="{{ url_for('static', filename='dist/bundle.js') }}"></script>
+        {% endblock %}
       </div>
       <div class="col-md-4">
         <div class="content-section">
